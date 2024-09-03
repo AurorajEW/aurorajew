@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecionamento</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const pathname = window.location.pathname;
+            
+            if (pathname === '/elsamaria') {
+                window.location.href = 'https://drive.google.com/file/d/1X_bsziE9QYqvqfnPLh5ZYsq_cl_eKXed/view?usp=drive_link';
+            } else if (pathname === '/ana') {
+                window.location.href = 'https://drive.google.com/';
+            } else {
+                // URL não definida, redireciona para uma página padrão, por exemplo:
+                window.location.href = 'https://aurorajew.pt';
+            }
+        });
+    </script>
+</head>
+<body>
+    <h5>Redirecionando...</h5>
+</body>
+</html>
