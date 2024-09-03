@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/anasticia",
+      "destination": "https://link-para-google-drive-1",
+      "permanent": true
+    },
+    {
+      "source": "/ana",
+      "destination": "https://link-para-google-drive-2",
+      "permanent": true
+    }
+  ]
+}
